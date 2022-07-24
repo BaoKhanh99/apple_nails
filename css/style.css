@@ -3,7 +3,19 @@
     and (device-height: 844px) {
       .fb-insta-btn a img{
       display: none;
-  }
+      }
+      .section_1{
+        padding-bottom: 5%;
+      }
+      .section_1 .row{
+        display: block;
+      }
+      .image-section-1 img{
+        height: 500px !important;
+      }
+      .section_2{
+        background-size: 100% 115vh;
+      }
 }
 
 .shop-name{
@@ -11,7 +23,6 @@
 }
 .section_1{
   background-color: #F2F2F2;
-  height: 650px;
 }
 
 .image-section-1 img{
@@ -43,7 +54,6 @@
   margin-top: 20%;
   margin-left: 20%;
   letter-spacing: 4px;
-  /* background-color: blanchedalmond; */
 }
 
 .btn-call a{
@@ -57,4 +67,25 @@
 .btn-call a:hover{
   background-color: #F1A689;
   color: black;
+}
+.section_2{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/background_section_2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 150vh;
+}
+
+.section_2 .table{
+  background-color: rgba(43, 45, 53, 0.432);
+}
+
+.section_2 table tbody tr{
+  color: #F2F2F2 !important;
+}
+
+.section_2 table thead tr{
+  color: #F2F2F2 !important;
+}
+
+.section_2 table tbody tr td{
+  padding-left: 2%;
 }
