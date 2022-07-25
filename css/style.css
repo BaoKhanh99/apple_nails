@@ -89,3 +89,11 @@
 .section_2 table tbody tr td{
   padding-left: 2%;
 }
+
+.section_3 .container-fluid .row div{
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+.gallery{
+  letter-spacing: 6px;
+}
