@@ -97,3 +97,11 @@
 .gallery{
   letter-spacing: 6px;
 }
+
+.review{
+  border-left: 8px solid #fdcfbd71 !important
+}
+
+.happy_clients{
+  letter-spacing: 3px;
+}
