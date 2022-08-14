@@ -105,3 +105,22 @@
 .happy_clients{
   letter-spacing: 3px;
 }
+
+.section_5{
+  margin-top: auto;
+  margin-bottom: auto;
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.45), rgba(255,255,255,0.45)), url(../images/background_section_5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 150vh;
+}
+
+.section_5 .submit_mail{
+  background-color: #F1A689;
+}
+
+ .mail_box{
+}
+
+.w-90{
+  width: 90% !important;
+}
