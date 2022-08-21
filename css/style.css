@@ -1,6 +1,6 @@
-@media only screen
-    and (device-width: 390px)
-    and (device-height: 844px) {
+@media all
+    and (max-width: 415px)
+    {
       .fb-insta-btn a img{
       display: none;
       }
