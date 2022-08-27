@@ -1,21 +1,46 @@
-@media all
-    and (max-width: 415px)
-    {
-      .fb-insta-btn a img{
-      display: none;
-      }
-      .section_1{
-        padding-bottom: 5%;
-      }
-      .section_1 .row{
-        display: block;
-      }
-      .image-section-1 img{
-        height: 500px !important;
-      }
-      .section_2{
-        background-size: 100% 115vh;
-      }
+@media all and (max-width: 415px)
+{
+  .fb-insta-btn a img{
+  display: none;
+  }
+  .section_1{
+    padding-bottom: 5%;
+  }
+  .section_1 .row{
+    display: block;
+  }
+  .image-section-1 img{
+    height: 500px !important;
+  }
+  .section_2{
+    background-size: 100% 115vh;
+  }
+
+  .section_5 .w-90{
+    width: 100% !important;
+  }
+
+  .section_5 .my-lg-4{
+    margin-top: 4% !important;
+    margin-bottom: 4% !important;
+  }
+  .section_5 .mx-lg-5{
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+  }
+
+  .section_5 .py-lg-5{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+}
+
+
+@media all and (min-width: 415px)
+{
+  .section_5 .input-centered{
+    margin: 0 auto;
+  }
 }
 
 .shop-name{
@@ -119,8 +144,34 @@
   background-color: #F1A689;
 }
 
-.w-90{
-  width: 90% !important;
+.w-70{
+  width: 70% !important;
+}
+
+.section_5 .btn-submit{
+  letter-spacing: 3px;
+}
+
+.section_5 .btn-submit{
+  border-radius: 40px;
+  color: black;
+  background-color: #f2b39a;
+  padding: 1% 5% 1% 5%;
+}
+
+.section_5 .btn-submit:hover{
+  background-color: #F1A689;
+  color: black;
+}
+
+.section_5 .breakline{
+  border-radius: 40px;
+  color: #F2F2F2;
+  opacity: 1;
+  width: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4px;
 }
 
 footer .btn-call{
