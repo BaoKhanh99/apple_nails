@@ -12,6 +12,11 @@
   .image-section-1 img{
     height: 500px !important;
   }
+
+  .section_1 .row{
+    --bs-gutter-x: 0 !important;
+  }
+
   .section_2{
     background-size: 100% 115vh;
   }
@@ -43,6 +48,13 @@
 
   .bottom-navbar .row{
     height: 50px;
+  }
+
+  .section_1 .btn-call{
+    margin-top: 11% !important;
+    margin-bottom: 5% !important;
+    margin-left: 21% !important;
+    letter-spacing: 4px;
   }
 }
 
