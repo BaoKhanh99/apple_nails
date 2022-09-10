@@ -310,21 +310,23 @@
                     are of the highest standard and that each client receives the best care
                 </p>
                 <div class="row px-3">
-                    <div class="mb-2 col-lg-10 input-centered">
-                        <input type="input" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Enter your name">
-                    </div>
-                    <div class="mb-2 col-lg-10 input-centered">
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Enter your valid email">
-                    </div>
-                    <div class="mb-2 col-lg-10 input-centered">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                            placeholder="Enter your message"></textarea>
-                    </div>
-                    <div class="pt-3 text-center">
-                        <input type="submit" class="btn-submit" value="SUBMIT">
-                    </div>
+                    <form action="send_mail.php" method="post">
+                        <div class="mb-2 col-lg-10 input-centered">
+                            <input type="input" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter your name" name="name">
+                        </div>
+                        <div class="mb-2 col-lg-10 input-centered">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter your email" name="email">
+                        </div>
+                        <div class="mb-2 col-lg-10 input-centered">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                placeholder="Enter your message" name="message"></textarea>
+                        </div>
+                        <div class="pt-3 text-center">
+                            <input type="submit" class="btn-submit" value="SUBMIT">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
